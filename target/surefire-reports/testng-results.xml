@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-17T02:22:10 IST" name="Suite" finished-at="2021-11-17T02:26:08 IST" duration-ms="238401">
+    <groups>
+    </groups>
+    <test started-at="2021-11-17T02:22:10 IST" name="Test1" finished-at="2021-11-17T02:23:07 IST" duration-ms="57479">
+      <class name="com.mindtree.Runner.Tc_001_Runner">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:com.mindtree.Runner.Tc_001_Runner@64c63c79]" started-at="2021-11-17T02:22:10 IST" name="initialize" finished-at="2021-11-17T02:22:34 IST" duration-ms="24644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="Case1()[pri:0, instance:com.mindtree.Runner.Tc_001_Runner@64c63c79]" started-at="2021-11-17T02:22:34 IST" name="Case1" finished-at="2021-11-17T02:22:59 IST" duration-ms="24986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Case1 -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.mindtree.Runner.Tc_001_Runner@64c63c79]" started-at="2021-11-17T02:23:06 IST" name="close" finished-at="2021-11-17T02:23:07 IST" duration-ms="1207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.mindtree.Runner.Tc_001_Runner -->
+    </test> <!-- Test1 -->
+    <test started-at="2021-11-17T02:23:08 IST" name="Test2" finished-at="2021-11-17T02:24:21 IST" duration-ms="73207">
+      <class name="com.mindtree.Runner.Tc_002_Runner">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:com.mindtree.Runner.Tc_002_Runner@31dadd46]" started-at="2021-11-17T02:23:08 IST" name="initialize" finished-at="2021-11-17T02:23:50 IST" duration-ms="41907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="Case1()[pri:0, instance:com.mindtree.Runner.Tc_002_Runner@31dadd46]" started-at="2021-11-17T02:23:50 IST" name="Case1" finished-at="2021-11-17T02:24:15 IST" duration-ms="24389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Case1 -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.mindtree.Runner.Tc_002_Runner@31dadd46]" started-at="2021-11-17T02:24:19 IST" name="close" finished-at="2021-11-17T02:24:21 IST" duration-ms="2071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.mindtree.Runner.Tc_002_Runner -->
+    </test> <!-- Test2 -->
+    <test started-at="2021-11-17T02:24:21 IST" name="Test3" finished-at="2021-11-17T02:25:02 IST" duration-ms="40749">
+      <class name="com.mindtree.Runner.Tc_003_Runner">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:com.mindtree.Runner.Tc_003_Runner@1f010bf0]" started-at="2021-11-17T02:24:21 IST" name="initialize" finished-at="2021-11-17T02:24:37 IST" duration-ms="15163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="Case1()[pri:0, instance:com.mindtree.Runner.Tc_003_Runner@1f010bf0]" started-at="2021-11-17T02:24:37 IST" name="Case1" finished-at="2021-11-17T02:24:58 IST" duration-ms="21098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Case1 -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.mindtree.Runner.Tc_003_Runner@1f010bf0]" started-at="2021-11-17T02:24:58 IST" name="close" finished-at="2021-11-17T02:25:02 IST" duration-ms="4111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.mindtree.Runner.Tc_003_Runner -->
+    </test> <!-- Test3 -->
+    <test started-at="2021-11-17T02:25:02 IST" name="Test4" finished-at="2021-11-17T02:25:35 IST" duration-ms="33153">
+      <class name="com.mindtree.Runner.Tc_004_Runner">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:com.mindtree.Runner.Tc_004_Runner@177bea38]" started-at="2021-11-17T02:25:02 IST" name="initialize" finished-at="2021-11-17T02:25:14 IST" duration-ms="11884" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="Case1()[pri:0, instance:com.mindtree.Runner.Tc_004_Runner@177bea38]" started-at="2021-11-17T02:25:14 IST" name="Case1" finished-at="2021-11-17T02:25:23 IST" duration-ms="8656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Case1 -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.mindtree.Runner.Tc_004_Runner@177bea38]" started-at="2021-11-17T02:25:35 IST" name="close" finished-at="2021-11-17T02:25:35 IST" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.mindtree.Runner.Tc_004_Runner -->
+    </test> <!-- Test4 -->
+    <test started-at="2021-11-17T02:25:35 IST" name="Test5" finished-at="2021-11-17T02:26:08 IST" duration-ms="32815">
+      <class name="com.mindtree.Runner.Tc_005_Runner">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:com.mindtree.Runner.Tc_005_Runner@8ad6665]" started-at="2021-11-17T02:25:35 IST" name="initialize" finished-at="2021-11-17T02:25:48 IST" duration-ms="13120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="Case1()[pri:0, instance:com.mindtree.Runner.Tc_005_Runner@8ad6665]" started-at="2021-11-17T02:25:48 IST" name="Case1" finished-at="2021-11-17T02:25:53 IST" duration-ms="4400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Case1 -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.mindtree.Runner.Tc_005_Runner@8ad6665]" started-at="2021-11-17T02:26:07 IST" name="close" finished-at="2021-11-17T02:26:08 IST" duration-ms="755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.mindtree.Runner.Tc_005_Runner -->
+    </test> <!-- Test5 -->
+  </suite> <!-- Suite -->
+</testng-results>

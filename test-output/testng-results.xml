@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-17T02:06:51 IST" name="Suite" finished-at="2021-11-17T02:09:56 IST" duration-ms="184515">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.mindtree.Runner.Tc_006_Runner@498d318c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.mindtree.Runner.Tc_007_Runner@222545dc]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.mindtree.Runner.Tc_008_Runner@2d7275fc]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.mindtree.Runner.Tc_009_Runner@35cabb2a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.mindtree.Runner.Tc_010_Runner@49ec71f8]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-11-17T02:06:51 IST" name="Test6" finished-at="2021-11-17T02:07:45 IST" duration-ms="53802">
+      <class name="com.mindtree.Runner.Tc_006_Runner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.mindtree.Runner.Tc_006_Runner@498d318c]" started-at="2021-11-17T02:06:51 IST" name="setUpClass" finished-at="2021-11-17T02:06:52 IST" duration-ms="299" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@ed2f2f6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.mindtree.Runner.Tc_006_Runner@498d318c]" started-at="2021-11-17T02:06:52 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-17T02:07:45 IST" duration-ms="53436" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Cart Validation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Add a product to cart and then remove it]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.mindtree.Runner.Tc_006_Runner@498d318c]" started-at="2021-11-17T02:07:45 IST" name="tearDownClass" finished-at="2021-11-17T02:07:45 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.mindtree.Runner.Tc_006_Runner -->
+    </test> <!-- Test6 -->
+    <test started-at="2021-11-17T02:07:45 IST" name="Test7" finished-at="2021-11-17T02:08:23 IST" duration-ms="38229">
+      <class name="com.mindtree.Runner.Tc_007_Runner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.mindtree.Runner.Tc_007_Runner@222545dc]" started-at="2021-11-17T02:07:45 IST" name="setUpClass" finished-at="2021-11-17T02:07:45 IST" duration-ms="17" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7c281eb8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.mindtree.Runner.Tc_007_Runner@222545dc]" started-at="2021-11-17T02:07:45 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-17T02:08:23 IST" duration-ms="38206" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Sort Products"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Sort Products According to Customer needs]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.mindtree.Runner.Tc_007_Runner@222545dc]" started-at="2021-11-17T02:08:23 IST" name="tearDownClass" finished-at="2021-11-17T02:08:23 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.mindtree.Runner.Tc_007_Runner -->
+    </test> <!-- Test7 -->
+    <test started-at="2021-11-17T02:08:23 IST" name="Test8" finished-at="2021-11-17T02:08:48 IST" duration-ms="24239">
+      <class name="com.mindtree.Runner.Tc_008_Runner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.mindtree.Runner.Tc_008_Runner@2d7275fc]" started-at="2021-11-17T02:08:23 IST" name="setUpClass" finished-at="2021-11-17T02:08:23 IST" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@65f40689]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.mindtree.Runner.Tc_008_Runner@2d7275fc]" started-at="2021-11-17T02:08:23 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-17T02:08:48 IST" duration-ms="24224" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Select gift cards"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Select 3 gift cardsof worth Rs1000]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.mindtree.Runner.Tc_008_Runner@2d7275fc]" started-at="2021-11-17T02:08:48 IST" name="tearDownClass" finished-at="2021-11-17T02:08:48 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.mindtree.Runner.Tc_008_Runner -->
+    </test> <!-- Test8 -->
+    <test started-at="2021-11-17T02:08:48 IST" name="Test9" finished-at="2021-11-17T02:09:26 IST" duration-ms="38375">
+      <class name="com.mindtree.Runner.Tc_009_Runner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.mindtree.Runner.Tc_009_Runner@35cabb2a]" started-at="2021-11-17T02:08:48 IST" name="setUpClass" finished-at="2021-11-17T02:08:48 IST" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@29be997f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.mindtree.Runner.Tc_009_Runner@35cabb2a]" started-at="2021-11-17T02:08:48 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-17T02:09:26 IST" duration-ms="38359" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Contact us valid"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Contact with valid data]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.mindtree.Runner.Tc_009_Runner@35cabb2a]" started-at="2021-11-17T02:09:26 IST" name="tearDownClass" finished-at="2021-11-17T02:09:26 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.mindtree.Runner.Tc_009_Runner -->
+    </test> <!-- Test9 -->
+    <test started-at="2021-11-17T02:09:26 IST" name="Test10" finished-at="2021-11-17T02:09:56 IST" duration-ms="29733">
+      <class name="com.mindtree.Runner.Tc_010_Runner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.mindtree.Runner.Tc_010_Runner@49ec71f8]" started-at="2021-11-17T02:09:26 IST" name="setUpClass" finished-at="2021-11-17T02:09:26 IST" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@33eb6758]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.mindtree.Runner.Tc_010_Runner@49ec71f8]" started-at="2021-11-17T02:09:26 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-17T02:09:56 IST" duration-ms="29717" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Contact us invalid"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Contact with invalid data]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.mindtree.Runner.Tc_010_Runner@49ec71f8]" started-at="2021-11-17T02:09:56 IST" name="tearDownClass" finished-at="2021-11-17T02:09:56 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.mindtree.Runner.Tc_010_Runner -->
+    </test> <!-- Test10 -->
+  </suite> <!-- Suite -->
+</testng-results>
